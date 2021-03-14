@@ -43,6 +43,7 @@ public class AmazonTest {
 		
 		driver.findElement(By.name("email")).sendKeys(uname);
 		System.out.println("username for "+uname +"  is entered");
+		System.out.println("cucumber demo is completed");
 		
 	}
 
